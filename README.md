@@ -1,7 +1,7 @@
 🌊 Culture Boat 
 
 A modern, editorial-style inspired by luxury brand aesthetics.
-This project focuses on visual storytelling, smooth animations, and cross-device consistency while maintaining clean and maintainable code.
+This project focuses on visual storytelling, smooth animations, while maintaining clean and maintainable code.
 
 📌 Project Overview
 
@@ -15,7 +15,7 @@ This project is a UI/UX redesign of the Culture Boat website with a strong empha
 
 -> Clean, scalable HTML, CSS, and JavaScript
 
-The goal was to create a brand-quality website that works seamlessly across mobile, tablet, and desktop devices without breaking alignment or design consistency.
+The goal was to create a brand-quality website that works seamlessly design consistency.
 
 ✨ Key Features
 
