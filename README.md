@@ -7,13 +7,13 @@ This project focuses on visual storytelling, smooth animations, and cross-device
 
 This project is a UI/UX redesign of the Culture Boat website with a strong emphasis on:
 
-Premium editorial layout
+-> Premium editorial layout
 
-Human-centric visual storytelling
+-> Human-centric visual storytelling
 
-Smooth animations and transitions
+-> Smooth animations and transitions
 
-Clean, scalable HTML, CSS, and JavaScript
+-> Clean, scalable HTML, CSS, and JavaScript
 
 The goal was to create a brand-quality website that works seamlessly across mobile, tablet, and desktop devices without breaking alignment or design consistency.
 
@@ -24,32 +24,32 @@ Inspired by fashion and luxury brand websites.
 
 🖼️ Hero Image Slider
 
-Background-image based slider
+-> Background-image based slider
 
-Smooth fade transitions
+-> Smooth fade transitions
 
-Preloaded images to avoid flickering or broken visuals
+-> Preloaded images to avoid flickering or broken visuals
 
 🧭 Custom Side Navigation
 
-Clean hamburger menu
+-> Clean hamburger menu
 
-Smooth open/close interaction
+-> Smooth open/close interaction
 
-Works across all screen sizes
+-> Works across all screen sizes
 
 ⚡ Performance Optimized
 
-Lazy loading for images
+-> Lazy loading for images
 
-Image fallback handling
+-> Image fallback handling
 
-Minimal and efficient JavaScript
+-> Minimal and efficient JavaScript
 
 🛠️ Technologies Used
 
-HTML5 – Semantic and accessible structure
+-> HTML5 – Semantic and accessible structure
 
-CSS3 – Custom styling, animations, and layout polish
+-> CSS3 – Custom styling, animations, and layout polish
 
-JavaScript (Vanilla JS) – Navigation and slider logic
+-> JavaScript (Vanilla JS) – Navigation and slider logic
