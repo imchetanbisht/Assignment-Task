@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background: #1c3440;
+  color: #fff;
+}
+
+/* SIDE NAV */
+.side-nav {
+  position: fixed;
+  left: -240px;
+  top: 0;
+  width: 240px;
+  height: 100%;
+  background: #162a33;
+  padding-top: 120px;
+  transition: 0.4s;
+  z-index: 100;
+}
+
+.side-nav a {
+  display: block;
+  padding: 15px 40px;
+  color: #cfd8dc;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+.side-nav.open {
+  left: 0;
+}
+
+.menu-btn {
+  position: fixed;
+  top: 30px;
+  right: 40px;
+  font-size: 26px;
+  cursor: pointer;
+  z-index: 200;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  height: 100vh;
+}
+
+.hero-left, .hero-right {
+  flex: 1;
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 60px;
+  left: 60px;
+  max-width: 320px;
+}
+
+.overlay-text p {
+  color: #e0f2f1;
+}
+
+.hero-right h1 {
+  position: absolute;
+  bottom: 80px;
+  left: 60px;
+  font-size: 64px;
+  font-weight: 300;
+}
+
+.hero-right span {
+  font-weight: 700;
+}
+
+/* STORY */
+.story {
+  padding: 120px 100px;
+  background: #152933;
+}
+
+.story h2 {
+  font-size: 46px;
+  margin-bottom: 20px;
+}
+
+.story p {
+  max-width: 650px;
+  color: #b0bec5;
+}
+
+/* EDITORIAL GRID */
+.editorial-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-item {
+  position: relative;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+
+.grid-item h3 {
+  position: absolute;
+  bottom: 60px;
+  left: 30px;
+}
+
+.grid-item p {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  color: #cfd8dc;
+}
+
+/* CAREERS */
+.career-hero {
+  padding: 120px 100px 60px;
+}
+
+.career-hero h1 {
+  font-size: 60px;
+}
+
+.career-hero p {
+  margin-top: 20px;
+  color: #b0bec5;
+}
+
+.jobs {
+  padding: 60px 100px;
+}
+
+.job {
+  border-top: 1px solid #355764;
+  padding: 30px 0;
+}
+
+.job span {
+  color: #90caf9;
+  font-size: 13px;
+}
+
+/* ANIMATIONS */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 1s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+/* CAREERS – PREMIUM */
+
+.career-hero {
+  padding: 140px 120px 80px;
+  border-bottom: 1px solid #2f4b57;
+}
+
+.career-label {
+  display: inline-block;
+  letter-spacing: 4px;
+  font-size: 12px;
+  color: #90caf9;
+  margin-bottom: 20px;
+}
+
+.career-hero h1 {
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.career-hero p {
+  max-width: 520px;
+  margin-top: 30px;
+  font-size: 18px;
+  color: #b0bec5;
+}
+
+/* JOBS SECTION */
+.premium-jobs {
+  padding: 100px 120px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 50px;
+}
+
+.job-card {
+  border-top: 1px solid #3f5f6c;
+  padding-top: 30px;
+  transition: transform 0.4s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-8px);
+}
+
+.job-card h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.job-card p {
+  color: #b0bec5;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.job-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-footer span {
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #90caf9;
+}
+
+.job-footer button {
+  background: transparent;
+  border: 1px solid #90caf9;
+  color: #90caf9;
+  padding: 8px 22px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.job-footer button:hover {
+  background: #90caf9;
+  color: #0f2027;
+}
+/* PHILOSOPHY */
+.philosophy {
+  display: flex;
+  gap: 80px;
+  padding: 120px 120px;
+  background: #162a33;
+  align-items: center;
+}
+
+.philosophy img {
+  width: 45%;
+  border-radius: 6px;
+}
+
+.philosophy-text h2 {
+  font-size: 44px;
+  margin-bottom: 20px;
+}
+
+.philosophy-text p {
+  color: #b0bec5;
+  font-size: 18px;
+}
+
+/* QUOTE */
+.quote {
+  padding: 140px 120px;
+  background: #0f2027;
+  text-align: center;
+}
+
+.quote p {
+  font-size: 36px;
+  font-weight: 300;
+  max-width: 900px;
+  margin: auto;
+  color: #e0f7fa;
+}
+
+/* CTA */
+.cta {
+  padding: 120px 120px;
+  background: #162a33;
+  text-align: center;
+}
+
+.cta h2 {
+  font-size: 48px;
+}
+
+.cta p {
+  max-width: 600px;
+  margin: 20px auto 40px;
+  color: #b0bec5;
+}
+
+.cta a {
+  display: inline-block;
+  padding: 14px 40px;
+  border: 1px solid #90caf9;
+  color: #90caf9;
+  letter-spacing: 2px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cta a:hover {
+  background: #90caf9;
+  color: #0f2027;
+}
+/* HERO SLIDER */
+.slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transform: scale(1.05);
+  transition: opacity 1.2s ease, transform 3s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transform: scale(1);
+  z-index: 1;
+}
+
+/* Ensure text stays above images */
+.hero-left .overlay-text,
+.hero-right h1 {
+  position: absolute;
+  z-index: 5;
+}
+
+/* Smooth luxury feel */
+.hero-left::after,
+.hero-right::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    rgba(0,0,0,0.15),
+    rgba(0,0,0,0.4)
+  );
+  z-index: 2;
+}
+.hero-left,
+.hero-right {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* BALANCE & RHYTHM FIX */
+.story,
+.philosophy,
+.editorial-grid,
+.quote,
+.cta {
+  margin-top: 120px;
+}
+
+/* Editorial grid spacing fix */
+.editorial-grid {
+  gap: 40px;
+}
+
+/* Softer text contrast */
+.editorial-grid p,
+.story p,
+.philosophy-text p {
+  line-height: 1.6;
+}
+
+/* Quote section refinement */
+.quote p {
+  font-style: italic;
+  letter-spacing: 1px;
+}
+/* STORY SPLIT SECTION */
+.story-split {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.story-text h2 {
+  font-size: 46px;
+  margin-bottom: 20px;
+}
+
+.story-text p {
+  max-width: 520px;
+  color: #b0bec5;
+  line-height: 1.6;
+}
+
+.story-image img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 8px;
+}
